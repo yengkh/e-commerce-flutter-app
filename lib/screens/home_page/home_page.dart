@@ -33,7 +33,7 @@ class _MyHomePageState extends State<MyHomePage> {
         activeColor: Colors.white,
         backgroundColor: Colors.blue[400],
         blurEffect: true,
-        gapWidth: 1.0,
+        gapWidth: 2.0,
         icons: _iconList,
         activeIndex: _currentIndex,
         onTap: (index) => setState(() => _currentIndex = index),
